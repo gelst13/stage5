@@ -28,14 +28,14 @@ class StaticCodeAnalyzer:
         self.mistakes = dict()  # {'line' : [errors]}
         self.messages = {'S001': 'T00 long',
                          'S002': 'Indentation is not a multiple of four',
-                         'S003': 'Unnecessary semicolon after a statement',
+                         'S003': 'Unnecessary semicolon',
                          'S004': 'Less than two spaces before inline comments',
                          'S005': 'TODO found',
                          'S006': 'More than two blank lines preceding a code line',
                          'S007': "Too many spaces after \"$name\"",
-                         'S008': 'Class name class_name should be written in CamelCase',
-                         'S009': 'Function name \"$name\" should be written in snake_case',
-                         'S010': 'Argument name \"$name\" should be written in snake_case',
+                         'S008': 'Class name \"$name\" should be in CamelCase',
+                         'S009': 'Function name \"$name\" should be in snake_case',
+                         'S010': 'Argument name \"$name\" should be in snake_case',
                          'S011': 'Variable \"$name\" should be written in snake_case',
                          'S012': 'The default argument value is mutable',
                          }
@@ -130,36 +130,54 @@ class StaticCodeAnalyzer:
     
     @staticmethod
     def check_s008(expr):
-        search_class = re.findall('(class )', expr, flags=re.I)
-        if search_class:
+        # match expr for class in groups
+        s008 = re.match(r"^(class[ ]+)([A-z]+)", expr)
+        if bool(s008):
+            # if it's a match, we have class_name in .group(2)
             logging.info('def check_s008')
-            s008 = re.search(r'(class)[\s]+([A-Z][a-zA-z0-9]+)(:|\()', expr)
-            logging.debug(f's009: {s008}')
-            return bool(s008)
+            class_name = s008.group(2)
+            logging.debug(class_name)
+            # match class_name for correct format
+            if not bool(re.match(r"^([A-Z][a-z]+)([A-Z][a-z]+)*", class_name)):
+                # if class_name doesn't match correct format for class name,
+                # we consider class_name is wrong, we captured style error S008
+                logging.debug(f's008: {class_name}')
+                return class_name
         else:
-            return 'Not a class'
+            return False
     
     @staticmethod
     def check_s009(expr: str):
         """Function name function_name should be written in snake_case"""
-        logging.info('check_s009...')
         search_def = re.findall('(def )', expr, flags=re.I)
         if search_def:
-            s009 = re.search(r'(def)[\s]+([-a-z_]+)\(', expr)
-            logging.info('def check_s009...')
-            logging.debug(f's009: {s009}')
-            logging.debug((expr.split('(')[0]).rstrip())
-            return bool(s009)
-        else:
-            return 'Not a function'
+            # logging.info('def check_s009...')
+            # match expr for def in groups
+            match = re.match(r"^(.*def[ ]+)([_A-z0-9]+)", expr)
+            # if it's a match, we have method's name in .group(2)
+            method_name = match.group(2)
+            logging.debug(method_name)
+            # match method_name for correct format
+            if bool(re.match(r"^__init__", method_name)):
+                pass
+            elif not bool(re.match(r"^[_a-z0-9]+$", method_name)):
+                # if method_name doesn't match correct format for class name,
+                # we consider method_name is wrong, we captured style error S009
+                logging.debug(f's009: {method_name}')
+                return method_name
     
     @staticmethod
     def check_snake_case(expr: str):
-        """Test if variable/argument name is written in snake_case"""
-        logging.info('check_snake_case...')
-        check_ = re.match(r'([a-z_][a-z0-9_]+)$', expr)
-        logging.debug(f'check_: {check_}')
-        return bool(check_)
+        """Return True if variable/argument name is written in snake_case"""
+        logging.info(f'check_snake_case for... {expr}')
+        # check_ = re.match(r'([a-z_][a-z0-9_]+)$', expr)
+        # check_ = re.match(r'([a-z0-9]+(?:_[a-z0-9]+)*)$', expr)
+        if expr == '__init__':
+            return True
+        else:
+            check_ = re.match(r'[_a-z0-9]+(?:_[a-z0-9]+)*$', expr)
+            logging.debug(f'check_: {check_}')
+            return bool(check_)
     
     @staticmethod
     def check_immutability(tested_obj):
@@ -173,10 +191,12 @@ class StaticCodeAnalyzer:
         logging.debug(type(tested_obj))
         if isinstance(tested_obj, ast.Tuple):
             if hash(tested_obj.elts):
-                logging.debug('tested_obj is immutable and hashable')
+                logging.debug('tested_obj is Tuple, but immutable and hashable')
                 return True
         elif isinstance(tested_obj, ast.Constant):
-            logging.debug('tested_obj is immutable and hashable')
+            logging.debug('tested_obj is Constant, immutable and hashable')
+            return True
+        elif isinstance(tested_obj, int) or isinstance(tested_obj, str):
             return True
     
     def check_ast_nodes(self, filename):
@@ -188,36 +208,63 @@ class StaticCodeAnalyzer:
             # try:
             tree = ast.parse(code)
             # lines = [None] + code.splitlines()  # None at [0] so we can index lines from 1
-            for node in tree.body:
-                if isinstance(node, ast.FunctionDef):
-                    logging.info('node: ast.FunctionDef')
-                    function_node = node
-                    self.mistakes[function_node.lineno] = set()
-                    function_name = node.name
-                    logging.debug(f'function_name: {function_name}')
-                    # check for error S010
-                    function_args = [a.arg for a in function_node.args.args]
-                    logging.debug(f'function_args: {function_args}')
-                    if not self.check_snake_case(function_name):
-                        logging.debug('!!! error S009')
-                    for arg in function_args:
-                        if not self.check_snake_case(arg):
-                            self.mistakes[function_node.lineno].add(('S010', arg))
-                    # check for error S011
-                    logging.info(f'FunctionDef {function_name}: ast.Assign')
-                    for obj in function_node.body:
-                        if isinstance(obj, ast.Assign):
-                            self.mistakes[obj.lineno] = set()
-                            var_name = [name.id for name in obj.targets][0]
-                            logging.debug(var_name)
-                            if not self.check_snake_case(var_name):
-                                self.mistakes[obj.lineno].add(('S011', var_name))
-                    # check for error S012
-                    function_args_defaults = [d for d in function_node.args.defaults]
-                    logging.debug(f'args_default: {function_args_defaults}')
-                    for default_value in function_args_defaults:
-                        if not self.check_immutability(default_value):
-                            self.mistakes[function_node.lineno].add(('S012', ))
+            for node_ in tree.body:
+                logging.debug(node_.lineno)
+                if isinstance(node_, ast.ClassDef):
+                    tree = node_
+                    for node in tree.body:
+                        logging.debug(node.lineno)
+                        if isinstance(node, ast.FunctionDef):
+                            logging.info('node: ast.FunctionDef')
+                            function_node = node
+                            self.mistakes[function_node.lineno] = set()
+                            logging.debug(self.mistakes)
+                            function_name = node.name
+                            logging.debug(f'function_name: {function_name}')
+                            # check for error S010
+                            function_args = [a.arg for a in function_node.args.args]
+                            logging.debug(f'function_args: {function_args}')
+                            if not self.check_snake_case(function_name):
+                                logging.debug(f'{function_name} !!! error S009')
+                                self.mistakes[function_node.lineno].add(('S009', function_name))
+                            for arg in function_args:
+                                if not self.check_snake_case(arg):
+                                    self.mistakes[function_node.lineno].add(('S010', arg))
+                            # check for error S011
+                            logging.info('check for error S011')
+                            function_tree = function_node
+                            for inner_node in function_tree.body:
+                                if isinstance(inner_node, ast.Assign):
+                                    assign_node = inner_node
+                                    logging.info('ast.Assign node')
+                                    self.mistakes[assign_node.lineno] = set()
+                                    logging.debug(assign_node.lineno)
+                                    if isinstance(assign_node.targets[0], ast.Attribute):
+                                        logging.debug(assign_node.targets[0])  # <_ast.Attribute object at ...>
+                                        logging.debug(assign_node.targets[0].attr)
+                                        var_name = assign_node.targets[0].attr
+                                    else:
+                                        # print(assign_node.targets[0])  # <_ast.Name object at 0x0000000001E9B2B0>
+                                        var_name = assign_node.targets[0].id  # variable name by it's id
+                                        var_value = assign_node.value.id  # assigned value
+                                        logging.debug(f'var_value: {var_value}')
+                                    logging.debug(f'var_name: {var_name}')
+                            # for obj in function_node.body:
+                            #     if isinstance(obj, ast.Assign):
+                            #         self.mistakes[obj.lineno] = set()
+                            #         logging.debug(self.mistakes)
+                            #         logging.debug(obj.targets)
+                            #         var_name = [name for name in obj.targets][0]
+                            #         logging.debug(var_name)
+                                    if not self.check_snake_case(var_name):
+                                        self.mistakes[inner_node.lineno].add(('S011', var_name))
+                            # check for error S012
+                            function_args_defaults = [d for d in function_node.args.defaults]
+                            logging.debug(f'args_default: {function_args_defaults}')
+                            for default_value in function_args_defaults:
+                                logging.debug(default_value)
+                                if not self.check_immutability(default_value):
+                                    self.mistakes[function_node.lineno].add(('S012', ))
             # except IndentationError as err:
             #     logging.error(err)
             # except SyntaxError as err:
@@ -246,10 +293,10 @@ class StaticCodeAnalyzer:
                     self.mistakes[number + 1].add(('S005', ))
                 if self.check_s007(line):
                     self.mistakes[number + 1].add(('S007', self.check_s007(line)))
-                if not self.check_s008(line):
-                    self.mistakes[number + 1].add(('S008', ))
-                if not self.check_s009(line):
-                    self.mistakes[number + 1].add(('S009', ))
+                if self.check_s008(line):
+                    self.mistakes[number + 1].add(('S008', self.check_s008(line)))
+                if self.check_s009(line):
+                    self.mistakes[number + 1].add(('S009', self.check_s009(line)))
                 # check_s006 inplace - without separate method
                 if line == '\n':
                     logging.warning(r"line == '\n'")
@@ -259,16 +306,15 @@ class StaticCodeAnalyzer:
                     if empty_line_count > 2:
                         try:
                             logging.warning('empty_line_count > 2')
-                            self.mistakes[number + 1].add(('S006', ))
+                            self.mistakes[number + 2].add(('S006', ))
                             logging.debug(self.mistakes)
                             empty_line_count = 0
                         except KeyError as err:
                             logging.warning(err)
-                            self.mistakes[number + 1] = set()
-                            self.mistakes[number + 1].add(('S006', ))
+                            self.mistakes[number + 2] = set()
+                            self.mistakes[number + 2].add(('S006', ))
                             logging.debug(self.mistakes)
                             empty_line_count = 0
-                            
                 else:
                     if 0 < empty_line_count < 3:
                         empty_line_count = 0
@@ -313,7 +359,7 @@ class StaticCodeAnalyzer:
         # ANALYZING
         logging.info('ANALYZING')
         for file in sorted(files):
-            # logging.debug(file)
+            logging.debug(file)
             self.check_file(file)
             self.check_ast_nodes(file)
             self.mistakes = self.process_result()
