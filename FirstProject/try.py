@@ -1,5 +1,3 @@
-# !/usr/bin/python
-# -*- coding: utf-8
 # $Duskers
 
 
@@ -13,22 +11,18 @@ class GamePlay:
     #     # #    #   #      #    #  #    # #      #      #   ##
      #####  #    #   #       #### #  ####  ###### ###### #    # """
     
-    commands = ['play', 'high', 'help', 'exit', 'back', 'yes', 'no', 'menu']
+    commands = ['play', 'high', 'help', 'exit', 'back', 'yes', 'no',
+                'menu', 'm', 'main', 'save', 'ex', 'up']
     
-    hub = """
-    --------------(LOG)-------------------------------(LOG)--------------------------
-    |********************************************************************************|
-    |--------------------------------------------------------------------------------|
-    |------------(ROBOT IMAGES)------------------------------------------------------|
-    |--------------------------------------------------------------------------------|
-    |--------------------------------------------------------------------------------|
-    |--------------------------------------------------------------------------------|
-    |--------------------------------------------------------------------------------|
-    |--------------------------------------------------------------------------------|
-    |================================================================================|
-    |                  [Ex]plore                          [Up]grade                  |
-    |                  [Save]                             [M]enu                     |
-    |********************************************************************************|"""
+    menu = """
+    |========================|
+    |           MENU         |
+    |                        |
+    |[Back] to game          |
+    | Return to [Main] Menu  |
+    |[Save] and exit         |
+    |[Exit] game             |
+    |========================|"""
     
     def __init__(self):
         self.command = ''
@@ -38,6 +32,21 @@ class GamePlay:
         print('Your command:')
         self.command = input()
     
+    @staticmethod
+    def print_hub():
+        print("""║════════════════════════════════════════════════════════════════════════════════║
+
+  ╬   ╬╬╬╬╬╬╬   ╬     ╬   ╬╬╬╬╬╬╬   ╬     ╬   ╬╬╬╬╬╬╬   ╬
+  ╬╬╬╬╬     ╬╬╬╬╬     ╬╬╬╬╬     ╬╬╬╬╬     ╬╬╬╬╬     ╬╬╬╬╬
+      ╬╬╬╬╬╬╬             ╬╬╬╬╬╬╬             ╬╬╬╬╬╬╬
+     ╬╬╬   ╬╬╬           ╬╬╬   ╬╬╬           ╬╬╬   ╬╬╬
+     ╬       ╬           ╬       ╬           ╬       ╬
+
+║════════════════════════════════════════════════════════════════════════════════║
+║                  [Ex]plore                          [Up]grade                  ║
+║                  [Save]                             [M]enu                     ║
+║════════════════════════════════════════════════════════════════════════════════║""")
+    
     def start(self):
         print(GamePlay.tytle)
         print('[Play]')
@@ -45,14 +54,17 @@ class GamePlay:
         print('[Help]')
         print('[Exit]')
         self.ask_for_command()
-    
+        
         while True:
             the_question = """Are you ready to begin?\n[Yes] [No] Return to Main[Menu]"""
             if self.command.lower() not in GamePlay.commands:
                 print('Invalid input')
                 self.ask_for_command()
-            elif self.command.lower() == 'menu':
+            elif self.command.lower() == 'main':
                 self.start()
+            elif self.command.lower() == 'm':
+                print(GamePlay.menu)
+                self.ask_for_command()
             elif self.command.lower() == 'play':
                 print()
                 print('Enter your name:')
@@ -69,8 +81,8 @@ class GamePlay:
             elif self.command.lower() == 'yes':
                 print()
                 # print("Great, now let's go code some more ;)")
-                print(GamePlay.hub)
-                exit()
+                self.print_hub()
+                self.ask_for_command()
             elif self.command.lower() == 'high':
                 print()
                 print('No scores to display.\n    [Back]')
@@ -79,8 +91,21 @@ class GamePlay:
                 print()
                 print('Coming SOON! Thanks for playing!')
                 exit()
+            elif self.command.lower() == 'ex':
+                print()
+                print('Coming SOON! Thanks for playing!')
+                exit()
+            elif self.command.lower() == 'up':
+                print()
+                print('Coming SOON! Thanks for playing!')
+                exit()
+            elif self.command.lower() == 'save':
+                print()
+                print('Coming SOON! Thanks for playing!')
+                exit()
             elif self.command.lower() == 'back':
-                self.start()
+                self.print_hub()
+                self.ask_for_command()
             elif self.command.lower() == 'exit':
                 print()
                 print('Thanks for playing, bye!')
