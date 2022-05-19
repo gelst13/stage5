@@ -4,10 +4,13 @@ import logging
 import random
 import sys
 import time
+from random import Random
 from time import sleep
 
 logging.basicConfig(filename='bo.log', level=logging.DEBUG, filemode='a',
                     format='%(levelname)s - %(message)s')
+
+logging.disable(10)
 
 hub = r"""║════════════════════════════════════════════════════════════════════════════════║
 
@@ -29,7 +32,12 @@ class GamePlay:
     
     def __init__(self, seed, min_durations, max_durations, locations):
         """The initializer of the class."""
-        self.seed = int(seed)
+        # self.seed = seed
+        self.game_seed = Random()
+        self.game_seed.seed(seed)
+        self.animation_seed = Random()
+        self.animation_seed.seed(time.time())
+        
         self.min_durations = int(min_durations)
         self.max_durations = int(max_durations)
         self.locations = locations
@@ -90,15 +98,15 @@ class GamePlay:
     def __str__(self):
         return self.__repr__()
     
-    def random_generator(self):
-        r = random.random()
-        print(r)
-        if self.min_durations < int(r * 10) < self.max_durations:
-            print(int(r * 10))
-        elif int(r * 10) >= self.max_durations:
-            return self.max_durations
-        else:
-            return self.min_durations
+    # def random_generator(self):
+    #     # r = random.random()
+    #     print(r)
+    #     if self.min_durations < int(r * 10) < self.max_durations:
+    #         print(int(r * 10))
+    #     elif int(r * 10) >= self.max_durations:
+    #         return self.max_durations
+    #     else:
+    #         return self.min_durations
     
     def ask_for_command(self):
         print()
@@ -147,7 +155,9 @@ class GamePlay:
         if self.min_durations == 0 and self.max_durations == 0:
             sleep_duration = 0
         else:
-            sleep_duration = GamePlay.random_generator(self)
+            # sleep_duration = GamePlay.random_generator(self)
+            # sleep_duration = random.randint(self.min_durations, self.max_durations)
+            sleep_duration = int(self.animation_seed.randint(self.min_durations, self.max_durations))
         logging.debug(f'sleep_duration = {sleep_duration} sec')
         text_with_dots = [text] + ['.'] * sleep_duration + ['\n']
         for x in text_with_dots:
@@ -158,12 +168,15 @@ class GamePlay:
     def search(self):
         self.slow_print('Searching')
         if not self.search_data:
-            random.seed(self.seed)
+            # random.seed(self.seed)
             self.search_data[1] = (random.choice(self.locations), random.randint(10, 100))
+            self.search_data[1] = (self.game_seed.choice(self.locations), self.game_seed.randint(10, 100))
+        
         else:
             next_search_num = list(self.search_data.keys())[-1] + 1
-            random.seed(self.seed)
+            # random.seed(self.seed)
             self.search_data[next_search_num] = (random.choice(self.locations), random.randint(10, 100))
+            self.search_data[next_search_num] = (self.game_seed.choice(self.locations), self.game_seed.randint(10, 100))
         for item in self.search_data.items():
             print(f'[{item[0]}] {item[1][0]}')
         print()
@@ -171,13 +184,15 @@ class GamePlay:
         self.ask_for_command()
     
     def ex(self):
-        random.seed(self.seed)
-        max_number_of_locations = random.randint(1, 9)
+        # random.seed(self.seed)
+        # max_number_of_locations = random.randint(1, 9)
+        max_number_of_locations = self.game_seed.randint(1, 9)  # max amount of zone to be discovered.
         
         GamePlay.search(self)
         while True:
             if self.command.lower() == 's':
-                if list(self.search_data.keys())[-1] == max_number_of_locations:
+                if len(self.search_data.keys()) == max_number_of_locations:
+                    # if list(self.search_data.keys())[-1] == max_number_of_locations:
                     print('Nothing more in sight.\n      [Back]\n')
                     self.command = input('Your command: ')
                 else:
@@ -220,7 +235,7 @@ class GamePlay:
     }
     
     def start(self):
-        logging.debug(f'{self.seed}, {self.min_durations}, {self.max_durations}')
+        # logging.debug(f'{self.seed}, {self.min_durations}, {self.max_durations}')
         print(GamePlay.tytle)
         print('[Play]')
         print('[High] scores')
