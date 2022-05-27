@@ -1,52 +1,53 @@
-# $Duskers 4/6
+# $Duskers 5/6
 import argparse
+import datetime
 import logging
-import random
-import sys
+import os
 import time
 from random import Random
-from time import sleep
 
 logging.basicConfig(filename='bo.log', level=logging.DEBUG, filemode='a',
                     format='%(levelname)s - %(message)s')
 
-logging.disable(10)
-
-hub = r"""║════════════════════════════════════════════════════════════════════════════════║
-
-  ╬   ╬╬╬╬╬╬╬   ╬     ╬   ╬╬╬╬╬╬╬   ╬     ╬   ╬╬╬╬╬╬╬   ╬
-  ╬╬╬╬╬     ╬╬╬╬╬     ╬╬╬╬╬     ╬╬╬╬╬     ╬╬╬╬╬     ╬╬╬╬╬
-      ╬╬╬╬╬╬╬             ╬╬╬╬╬╬╬             ╬╬╬╬╬╬╬
-     ╬╬╬   ╬╬╬           ╬╬╬   ╬╬╬           ╬╬╬   ╬╬╬
-     ╬       ╬           ╬       ╬           ╬       ╬
-
-║════════════════════════════════════════════════════════════════════════════════║
-║                  [Ex]plore                          [Up]grade                  ║
-║                  [Save]                             [M]enu                     ║
-║════════════════════════════════════════════════════════════════════════════════║"""
+# hub = r"""??????????????????????????????????????????????????????????????????????????????????
+#
+#   ?   ???????   ?     ?   ???????   ?     ?   ???????   ?
+#   ?????     ?????     ?????     ?????     ?????     ?????
+#       ???????             ???????             ???????
+#      ???   ???           ???   ???           ???   ???
+#      ?       ?           ?       ?           ?       ?
+#
+# ??????????????????????????????????????????????????????????????????????????????????
+# ?                  [Ex]plore                          [Up]grade                  ?
+# ?                  [Save]                             [M]enu                     ?
+# ??????????????????????????????????????????????????????????????????????????????????"""
+save_file = 'save_file.txt'
+high_file = 'high_scores.txt'
 
 
 class GamePlay:
-    global hub
+    global save_file
     n_ph = 0
-    
-    def __init__(self, seed, min_durations, max_durations, locations):
+
+    def __init__(self, _seed, min_durations, max_durations, locations):
         """The initializer of the class."""
-        # self.seed = seed
-        self.game_seed = Random()
-        self.game_seed.seed(seed)
-        self.animation_seed = Random()
-        self.animation_seed.seed(time.time())
-        
         self.min_durations = int(min_durations)
         self.max_durations = int(max_durations)
         self.locations = locations
         self.command = ''
         self.player_name = ''
+        self.robot_count = 0
         self.staticmethod_object = 0
         self.search_data = dict()
+        self.slots = {1: 'empty', 2: 'empty', 3: 'empty'}
         self.titanium = 0
-    
+        self.short_sleep = 0.0001
+        self.game_seed = Random()
+        self.game_seed.seed(_seed)
+
+        self.animation_seed = Random()
+        self.animation_seed.seed(time.time())
+
     tytle = r"""
      #####                   #####
     #     #   ##   #####    #     # #    # ###### ###### #    #
@@ -55,51 +56,51 @@ class GamePlay:
     #       ######   #      #   # # #    # #      #      #  # #
     #     # #    #   #      #    #  #    # #      #      #   ##
      #####  #    #   #       #### #  ####  ###### ###### #    # """
-    
-    robots = r"""║════════════════════════════════════════════════════════════════════════════════║
 
-       ██ ██      ██ ██      ██ ██
-        █ █        █ █        █ █
-       █████      █████      █████
-       ██ ██      ██ ██      ██ ██
-       ██ ██      ██ ██      ██ ██"""
-    
+    robots = r"""=================================================================================
+
+       ## ##      ## ##      ## ##
+        # #        # #        # #
+       #####      #####      #####
+       ## ##      ## ##      ## ##
+       ## ##      ## ##      ## ##"""
+
     panel = f"""
-║════════════════════════════════════════════════════════════════════════════════║
-║                  [Ex]plore                          [Up]grade                  ║
-║                  [Save]                             [M]enu                     ║
-║════════════════════════════════════════════════════════════════════════════════║"""
-    
-    commands = ['play', 'high', 'help', 'exit', 'back', 'yes', 'no',
+ =================================================================================
+||                 [Ex]plore                          [Up]grade                  ||
+||                 [Save]                             [M]enu                     ||
+ ================================================================================="""
+
+    commands = ['new', 'load', 'high', 'help', 'exit', 'back', 'yes', 'no',
                 'menu', 'm', 'main', 'save', 'ex', 'up', 's']
-    
+
     menu = """
     |========================|
     |           MENU         |
     |                        |
     |[Back] to game          |
-    |Return to [Main] Menu  |
+    |Return to [Main] Menu   |
     |[Save] and exit         |
     |[Exit] game             |
     |========================|"""
-    
+
     the_question = """Are you ready to begin?\n[Yes] [No] Return to [Main]Menu"""
-    
+
     def __new__(cls, *args, **kwargs):
         if cls.n_ph == 0:
             cls.n_ph += 1
             return object.__new__(cls)
         return None
-    
+
     def __repr__(self):
         return f'GamePlay object with:\n' \
                f'self.staticmethod_object: {self.staticmethod_object}\n'
-    
+
     def __str__(self):
         return self.__repr__()
-    
+
     # def random_generator(self):
-    #     # r = random.random()
+    #     r = random.random()
     #     print(r)
     #     if self.min_durations < int(r * 10) < self.max_durations:
     #         print(int(r * 10))
@@ -107,92 +108,92 @@ class GamePlay:
     #         return self.max_durations
     #     else:
     #         return self.min_durations
-    
+
     def ask_for_command(self):
         print()
         # print('Your command:')
         self.command = input('Your command: ')
-    
+
     def print_hub(self):
         print(GamePlay.robots)
         print(f'  Titanium: {self.titanium}')
         print(GamePlay.panel)
-    
-    def play(self):
-        print()
-        # print('Enter your name:')
-        self.player_name = input('Enter your name: ')
-        print()
-        print(f'Greetings, player {self.player_name}!')
-        print(GamePlay.the_question)
-        self.command = input()
-    
+
+    # def play(self):
+    #     print()
+    #     # print('Enter your name:')
+    #     self.player_name = input('Enter your name: ')
+    #     print()
+    #     print(f'Greetings, player {self.player_name}!')
+    #     print(GamePlay.the_question)
+    #     self.command = input()
+
     def yes(self):
         # print("Great, now let's go code some more ;)")
         GamePlay.print_hub(self)
         self.ask_for_command()
-    
+
     def no(self):
         self.staticmethod_object += 1
         print()
         print('How about now.')
         print(GamePlay.the_question)
         self.command = input()
-    
+
     def high(self):
         self.staticmethod_object += 1
         print()
         print('No scores to display.\n    [Back]')
         self.command = input()
-    
+
     def help(self):
         self.staticmethod_object += 1
         print()
         print('Coming SOON! Thanks for playing!')
         exit()
-    
-    def slow_print(self, text):
+
+    def animated_print(self, text, _interval):
+        logging.info('def animated_print')
+        logging.debug(text)
+        logging.debug(f'time_interval = {_interval}')
         if self.min_durations == 0 and self.max_durations == 0:
-            sleep_duration = 0
+            print(text)
         else:
-            # sleep_duration = GamePlay.random_generator(self)
-            # sleep_duration = random.randint(self.min_durations, self.max_durations)
-            sleep_duration = int(self.animation_seed.randint(self.min_durations, self.max_durations))
-        logging.debug(f'sleep_duration = {sleep_duration} sec')
-        text_with_dots = [text] + ['.'] * sleep_duration + ['\n']
-        for x in text_with_dots:
-            print(x, end='')
-            sys.stdout.flush()
-            sleep(1)
-    
+            for t in text:
+                print(t, end="")
+                time.sleep(_interval)
+            print()
+
     def search(self):
-        self.slow_print('Searching')
+        # self.slow_print('Searching')
+        print("Searching", end="")
+        interval = int(self.animation_seed.randint(self.min_durations, self.max_durations))
+        self.animated_print(interval * "." + "\n", 1)
         if not self.search_data:
             # random.seed(self.seed)
-            self.search_data[1] = (random.choice(self.locations), random.randint(10, 100))
+            # self.search_data[1] = (random.choice(self.locations), random.randint(10, 100))
             self.search_data[1] = (self.game_seed.choice(self.locations), self.game_seed.randint(10, 100))
-        
+
         else:
             next_search_num = list(self.search_data.keys())[-1] + 1
             # random.seed(self.seed)
-            self.search_data[next_search_num] = (random.choice(self.locations), random.randint(10, 100))
+            # self.search_data[next_search_num] = (random.choice(self.locations), random.randint(10, 100))
             self.search_data[next_search_num] = (self.game_seed.choice(self.locations), self.game_seed.randint(10, 100))
         for item in self.search_data.items():
             print(f'[{item[0]}] {item[1][0]}')
         print()
         print('[S] to continue searching')
         self.ask_for_command()
-    
+
     def ex(self):
         # random.seed(self.seed)
         # max_number_of_locations = random.randint(1, 9)
-        max_number_of_locations = self.game_seed.randint(1, 9)  # max amount of zone to be discovered.
-        
+        max_number_of_locations = self.game_seed.randint(1, 9)
+
         GamePlay.search(self)
         while True:
             if self.command.lower() == 's':
-                if len(self.search_data.keys()) == max_number_of_locations:
-                    # if list(self.search_data.keys())[-1] == max_number_of_locations:
+                if list(self.search_data.keys())[-1] == max_number_of_locations:
                     print('Nothing more in sight.\n      [Back]\n')
                     self.command = input('Your command: ')
                 else:
@@ -202,7 +203,10 @@ class GamePlay:
                 break
             elif int(self.command) in list(self.search_data.keys()):
                 num = int(self.command)
-                self.slow_print('Deploying robots')
+                # self.slow_print('Deploying robots')
+                print("Deploying robots", end="")
+                interval = int(self.animation_seed.randint(self.min_durations, self.max_durations))
+                self.animated_print(interval * ".", 1)
                 print(f'{self.search_data[num][0]} explored successfully, with no damage taken.')
                 acquired_titanium = self.search_data[num][1]
                 self.titanium += acquired_titanium
@@ -210,21 +214,99 @@ class GamePlay:
                 self.search_data = dict()
                 self.command = 'yes'
                 break
-    
+
     def up(self):
         self.staticmethod_object += 1
         print()
         print('Coming SOON! Thanks for playing!')
         exit()
-    
+
+    def read_slots(self):
+        logging.info('def read_slots')
+        slots = []
+        print('    Select save slot:')
+        with open(save_file, 'r', encoding='utf-8') as file:
+            lines = [line.strip('\n') for line in file.readlines()]
+            logging.debug(lines)
+            for line in lines:
+                if len(line) < 3:
+                    print(f'    [{line}] empty')
+                    slots.append(line)
+                else:
+                    _data = line.split(',')
+                    slots.append(_data)
+                    print(f'    [{_data[0]}] {_data[1]} Titanium: {_data[2]} Robots: {_data[3]} Last save: {_data[4]}')
+        return slots
+
+    @staticmethod
+    def write_to_file(data0, data1):
+        # data0: ['1,ko,0,0,2022-05-27 10:41', '2', '3']
+        # data1: ('1', 'ko', '0', '0', '2022-05-27 10:41')
+        with open(save_file, 'w', encoding='utf-8') as file:
+            for slot in data0:
+                if slot[0] == '3' and slot[0] == data1[0]:
+                    file.write(','.join(data1))
+                elif slot[0] == data1[0]:
+                    file.write(','.join(data1) + '\n')
+                elif slot[0] == '3':
+                    file.write(','.join(slot))
+                else:
+                    file.write(','.join(slot) + '\n')
+
+    def prepare_gamesave(self, slot_num):
+        return (slot_num, self.player_name, self.titanium, self.robot_count,
+                datetime.datetime.now().strftime('%Y-%m-%d %H:%M'))
+
     def save(self):
-        self.staticmethod_object += 1
+        memory_saves = self.read_slots()
+        print('Your command:')
+        slot_num = input()
+        new_data = tuple(map(str, GamePlay.prepare_gamesave(self, slot_num)))
+        self.write_to_file(memory_saves, new_data)
+        print("""       ==================================
+        ||    GAME SAVED SUCCESSFULLY   ||
+        ==================================""")
+        self.command = 'yes'
+
+    def load(self):
+        logging.info('def load...')
+        current_saves = self.read_slots()
+        logging.debug(current_saves)
+        print('Your command:')
+        slot_num = int(input())
+        if len(current_saves[slot_num - 1]) == 1:
+            print('Empty slot!')
+        else:
+            print(current_saves[slot_num - 1])
+            _data_ = current_saves[slot_num - 1]
+            self.player_name = _data_[1]
+            self.titanium = _data_[2]
+            self.robot_count = _data_[3]
+            print("""        ==================================
+        ||    GAME LOADED SUCCESSFULLY  ||
+        ==================================""")
+            print(f'Welcome back, commander {self.player_name}!')
+            self.command = 'yes'
+
+    # def save(self):
+    #     self.staticmethod_object += 1
+    #     print()
+    #     print('Coming SOON! Thanks for playing!')
+    #     exit()
+
+    def new(self):
         print()
-        print('Coming SOON! Thanks for playing!')
-        exit()
-    
+        # print('Enter your name:')
+        self.player_name = input('Enter your name: ')
+        print()
+        print(f'Greetings, player {self.player_name}!')
+        print(GamePlay.the_question)
+        self.command = input()
+
     actions = {
-        'play': play,
+        # 'play': play,
+        'new': new,
+        'load': load,
         'save': save,
         'yes': yes,
         'no': no,
@@ -233,16 +315,17 @@ class GamePlay:
         'help': help,
         'high': high,
     }
-    
+
     def start(self):
-        # logging.debug(f'{self.seed}, {self.min_durations}, {self.max_durations}')
-        print(GamePlay.tytle)
-        print('[Play]')
+        # print(GamePlay.tytle)
+        self.animated_print(GamePlay.tytle, self.short_sleep)
+        print('[New]  Game')
+        print('[Load] Game')
         print('[High] scores')
         print('[Help]')
         print('[Exit]')
         self.ask_for_command()
-        
+
         while True:
             if self.command.lower() not in GamePlay.commands:
                 print('Invalid input')
@@ -272,13 +355,13 @@ class GamePlay:
 
 def get_args():
     """Get arguments from command line. Return parser object with attributes."""
-    
+
     parser = argparse.ArgumentParser(description="This program receives 4 arguments")
     parser.add_argument("seed", nargs='?', default='10',
                         help="Type number to set a starting point for randint")
-    parser.add_argument("min_durations", nargs='?', default='3',
+    parser.add_argument("min_durations", type=int, nargs='?', default=0,
                         help="Specify min durations of animation")
-    parser.add_argument("max_durations", nargs='?', default='6',
+    parser.add_argument("max_durations", type=int, nargs='?', default=0,
                         help="Specify max durations of animation")
     parser.add_argument("places", help="Type possible locations", nargs='?',
                         default='High,street/Green,park/Destroyed,Arch')
@@ -287,11 +370,19 @@ def get_args():
 
 def main():
     logging.info(time.asctime(time.gmtime()))
+    if not os.path.isfile(save_file):
+        with open(save_file, 'w', encoding='utf-8') as file:
+            file.write('1' + '\n')
+            file.write('2' + '\n')
+            file.write('3')
+    if not os.path.isfile(high_file):
+        with open(high_file, 'w', encoding='utf-8') as file:
+            file.write('')  # create empty file
     args = get_args()
     seed, min_durations, max_durations = args.seed, args.min_durations, args.max_durations
     places = args.places
     locations = [location.replace(',', ' ') for location in places.split('/')]
-    logging.debug(locations)
+    logging.debug(args)
     new_game = GamePlay(seed, min_durations, max_durations, locations)
     new_game.start()
 
