@@ -1,26 +1,19 @@
 # $Duskers 5/6
+"""
+Make sure you also add the saving functionality to the save and exit option.
+"""
 import argparse
 import datetime
 import logging
 import os
 import time
+from collections import deque
 from random import Random
 
 logging.basicConfig(filename='bo.log', level=logging.DEBUG, filemode='a',
                     format='%(levelname)s - %(message)s')
 
-# hub = r"""??????????????????????????????????????????????????????????????????????????????????
-#
-#   ?   ???????   ?     ?   ???????   ?     ?   ???????   ?
-#   ?????     ?????     ?????     ?????     ?????     ?????
-#       ???????             ???????             ???????
-#      ???   ???           ???   ???           ???   ???
-#      ?       ?           ?       ?           ?       ?
-#
-# ??????????????????????????????????????????????????????????????????????????????????
-# ?                  [Ex]plore                          [Up]grade                  ?
-# ?                  [Save]                             [M]enu                     ?
-# ??????????????????????????????????????????????????????????????????????????????????"""
+
 save_file = 'save_file.txt'
 high_file = 'high_scores.txt'
 
@@ -28,6 +21,7 @@ high_file = 'high_scores.txt'
 class GamePlay:
     global save_file
     n_ph = 0
+    commands_stack = deque()
 
     def __init__(self, _seed, min_durations, max_durations, locations):
         """The initializer of the class."""
@@ -114,6 +108,7 @@ class GamePlay:
         print('Your command:')
         self.command = input()
         logging.debug(f'self.command = {self.command}')
+        GamePlay.commands_stack.append(self.command)
 
     def print_hub(self):
         print(GamePlay.robots)
@@ -142,6 +137,7 @@ class GamePlay:
         print('How about now.')
         print(GamePlay.the_question)
         self.command = input()
+        GamePlay.commands_stack.append(self.command)
 
     def high(self):
         logging.info('def high...')
@@ -149,6 +145,7 @@ class GamePlay:
         print()
         print('No scores to display.\n    [Back]')
         self.command = input()
+        GamePlay.commands_stack.append(self.command)
 
     def help(self):
         logging.info('def help')
@@ -218,6 +215,7 @@ class GamePlay:
                 print(f'Acquired {acquired_titanium} lumps of titanium')
                 self.search_data = dict()
                 self.command = 'yes'
+                GamePlay.commands_stack.append(self.command)
                 break
 
     def up(self):
@@ -227,7 +225,8 @@ class GamePlay:
         print('Coming SOON! Thanks for playing!')
         exit()
 
-    def read_slots(self):
+    @staticmethod
+    def read_slots():
         logging.info('def read_slots')
         slots = []
         print('    Select save slot:')
@@ -269,6 +268,7 @@ class GamePlay:
         print()
         print('Your command:')
         slot_num = input()
+        GamePlay.commands_stack.append(slot_num)
         # if slot_num == 'back':
         #     self.yes()
         # else:
@@ -277,7 +277,14 @@ class GamePlay:
         print("""       ==================================
     ||    GAME SAVED SUCCESSFULLY   ||
     ==================================""")
-        self.command = 'yes'
+        if GamePlay.commands_stack[-3] == 'm':
+            logging.debug('GamePlay.commands_stack[-3] == m:')
+            logging.info('save and exit')
+            self.command = 'exit'
+            GamePlay.commands_stack.append(self.command)
+        else:
+            self.command = 'yes'
+            GamePlay.commands_stack.append(self.command)
 
     def load(self):
         logging.info('def load...')
@@ -287,6 +294,7 @@ class GamePlay:
         print('Your command:')
         try:
             slot_num = int(input())
+            GamePlay.commands_stack.append(slot_num)
             if len(current_saves[slot_num - 1]) == 1:
                 print('Empty slot!')
             else:
@@ -294,16 +302,17 @@ class GamePlay:
                 logging.debug(current_saves[slot_num - 1])
                 _data_ = current_saves[slot_num - 1]
                 self.player_name = _data_[1]
-                self.titanium = _data_[2]
-                self.robot_count = _data_[3]
+                self.titanium = int(_data_[2])
+                self.robot_count = int(_data_[3])
+                logging.debug(f"player's params: {self.player_name}, {self.titanium}, {self.robot_count}")
                 print("""        ==================================
             ||    GAME LOADED SUCCESSFULLY  ||
             ==================================""")
                 print(f'Welcome back, commander {self.player_name}!')
                 self.command = 'yes'
+                GamePlay.commands_stack.append(self.command)
         except ValueError:  # case when user enters 'back'
             self.start()
-
 
     # def save(self):
     #     self.staticmethod_object += 1
@@ -320,6 +329,7 @@ class GamePlay:
         print(f'Greetings, player {self.player_name}!')
         print(GamePlay.the_question)
         self.command = input()
+        GamePlay.commands_stack.append(self.command)
 
     actions = {
         # 'play': play,
@@ -346,8 +356,9 @@ class GamePlay:
         self.ask_for_command()
 
         while True:
+            logging.debug(GamePlay.commands_stack)
             if self.command.lower() not in GamePlay.commands:
-                print('Invalid input')
+                print('Invalid iput')
                 self.ask_for_command()
             elif self.command.lower() in GamePlay.actions:
                 GamePlay.actions[self.command.lower()](self)
@@ -389,14 +400,16 @@ def get_args():
 
 def main():
     logging.info(time.asctime(time.gmtime()))
-    if not os.path.isfile(save_file):
-        logging.debug('not os.path.isfile(save_file)')
+    # if not os.path.isfile(save_file):
+    if not os.path.isfile("save_file.txt"):
+        logging.debug('not os.path.isfile("save_file.txt")')
         with open(save_file, 'w', encoding='utf-8') as file:
             file.write('1' + '\n')
             file.write('2' + '\n')
             file.write('3')
-    if not os.path.isfile(high_file):
-        logging.debug('not os.path.isfile(high_file)')
+    # if not os.path.isfile(high_file):
+    if not os.path.isfile('high_scores.txt'):
+        logging.debug('not os.path.isfile("high_scores.txt")')
         with open(high_file, 'w', encoding='utf-8') as file:
             file.write('')  # create empty file
     args = get_args()
