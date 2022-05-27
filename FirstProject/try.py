@@ -111,8 +111,9 @@ class GamePlay:
 
     def ask_for_command(self):
         print()
-        # print('Your command:')
-        self.command = input('Your command: ')
+        print('Your command:')
+        self.command = input()
+        logging.debug(f'self.command = {self.command}')
 
     def print_hub(self):
         print(GamePlay.robots)
@@ -129,11 +130,13 @@ class GamePlay:
     #     self.command = input()
 
     def yes(self):
+        logging.info('def yes...')
         # print("Great, now let's go code some more ;)")
         GamePlay.print_hub(self)
         self.ask_for_command()
 
     def no(self):
+        logging.debug('def no')
         self.staticmethod_object += 1
         print()
         print('How about now.')
@@ -141,21 +144,20 @@ class GamePlay:
         self.command = input()
 
     def high(self):
+        logging.info('def high...')
         self.staticmethod_object += 1
         print()
         print('No scores to display.\n    [Back]')
         self.command = input()
 
     def help(self):
+        logging.info('def help')
         self.staticmethod_object += 1
         print()
         print('Coming SOON! Thanks for playing!')
         exit()
 
     def animated_print(self, text, _interval):
-        logging.info('def animated_print')
-        logging.debug(text)
-        logging.debug(f'time_interval = {_interval}')
         if self.min_durations == 0 and self.max_durations == 0:
             print(text)
         else:
@@ -165,6 +167,7 @@ class GamePlay:
             print()
 
     def search(self):
+        logging.info('def search')
         # self.slow_print('Searching')
         print("Searching", end="")
         interval = int(self.animation_seed.randint(self.min_durations, self.max_durations))
@@ -186,6 +189,7 @@ class GamePlay:
         self.ask_for_command()
 
     def ex(self):
+        logging.info('def ex...')
         # random.seed(self.seed)
         # max_number_of_locations = random.randint(1, 9)
         max_number_of_locations = self.game_seed.randint(1, 9)
@@ -204,6 +208,7 @@ class GamePlay:
             elif int(self.command) in list(self.search_data.keys()):
                 num = int(self.command)
                 # self.slow_print('Deploying robots')
+                logging.info('Deploying robots')
                 print("Deploying robots", end="")
                 interval = int(self.animation_seed.randint(self.min_durations, self.max_durations))
                 self.animated_print(interval * ".", 1)
@@ -216,6 +221,7 @@ class GamePlay:
                 break
 
     def up(self):
+        logging.info('def up')
         self.staticmethod_object += 1
         print()
         print('Coming SOON! Thanks for playing!')
@@ -258,35 +264,46 @@ class GamePlay:
                 datetime.datetime.now().strftime('%Y-%m-%d %H:%M'))
 
     def save(self):
+        logging.info('def save')
         memory_saves = self.read_slots()
+        print()
         print('Your command:')
         slot_num = input()
+        # if slot_num == 'back':
+        #     self.yes()
+        # else:
         new_data = tuple(map(str, GamePlay.prepare_gamesave(self, slot_num)))
         self.write_to_file(memory_saves, new_data)
         print("""       ==================================
-        ||    GAME SAVED SUCCESSFULLY   ||
-        ==================================""")
+    ||    GAME SAVED SUCCESSFULLY   ||
+    ==================================""")
         self.command = 'yes'
 
     def load(self):
         logging.info('def load...')
         current_saves = self.read_slots()
         logging.debug(current_saves)
+        print()
         print('Your command:')
-        slot_num = int(input())
-        if len(current_saves[slot_num - 1]) == 1:
-            print('Empty slot!')
-        else:
-            print(current_saves[slot_num - 1])
-            _data_ = current_saves[slot_num - 1]
-            self.player_name = _data_[1]
-            self.titanium = _data_[2]
-            self.robot_count = _data_[3]
-            print("""        ==================================
-        ||    GAME LOADED SUCCESSFULLY  ||
-        ==================================""")
-            print(f'Welcome back, commander {self.player_name}!')
-            self.command = 'yes'
+        try:
+            slot_num = int(input())
+            if len(current_saves[slot_num - 1]) == 1:
+                print('Empty slot!')
+            else:
+                # let's change game params according to loaded data
+                logging.debug(current_saves[slot_num - 1])
+                _data_ = current_saves[slot_num - 1]
+                self.player_name = _data_[1]
+                self.titanium = _data_[2]
+                self.robot_count = _data_[3]
+                print("""        ==================================
+            ||    GAME LOADED SUCCESSFULLY  ||
+            ==================================""")
+                print(f'Welcome back, commander {self.player_name}!')
+                self.command = 'yes'
+        except ValueError:  # case when user enters 'back'
+            self.start()
+
 
     # def save(self):
     #     self.staticmethod_object += 1
@@ -295,6 +312,7 @@ class GamePlay:
     #     exit()
 
     def new(self):
+        logging.debug('def new')
         print()
         # print('Enter your name:')
         self.player_name = input('Enter your name: ')
@@ -317,6 +335,7 @@ class GamePlay:
     }
 
     def start(self):
+        logging.info('def start')
         # print(GamePlay.tytle)
         self.animated_print(GamePlay.tytle, self.short_sleep)
         print('[New]  Game')
@@ -371,11 +390,13 @@ def get_args():
 def main():
     logging.info(time.asctime(time.gmtime()))
     if not os.path.isfile(save_file):
+        logging.debug('not os.path.isfile(save_file)')
         with open(save_file, 'w', encoding='utf-8') as file:
             file.write('1' + '\n')
             file.write('2' + '\n')
             file.write('3')
     if not os.path.isfile(high_file):
+        logging.debug('not os.path.isfile(high_file)')
         with open(high_file, 'w', encoding='utf-8') as file:
             file.write('')  # create empty file
     args = get_args()
