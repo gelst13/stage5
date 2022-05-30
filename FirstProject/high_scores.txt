@@ -1,0 +1,10 @@
+bo,11000
+bo,11000
+cetin,10000
+cetin,10000
+cetin,10000
+cetin,10000
+cetin,10000
+cetin,10000
+cetin,10000
+koh,13000

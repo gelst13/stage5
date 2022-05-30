@@ -1,0 +1,1549 @@
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+exit
+Bye bye!
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+add
+add
+The card:The card:
+
+cat
+cat
+The definition of the card:The definition of the card:
+
+meow
+meow
+The pair ("cat":"meow") has been added.The pair ("cat":"meow") has been added.
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+add
+add
+The card:The card:
+
+cat
+cat
+The <term/definition> already exists. Try again:The <term/definition> already exists. Try again:
+
+dog
+dog
+The definition of the card:The definition of the card:
+
+meow
+meow
+The <term/definition> already exists. Try again:The <term/definition> already exists. Try again:
+
+woof
+woof
+The pair ("dog":"woof") has been added.The pair ("dog":"woof") has been added.
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+ask
+ask
+How many times to ask?How many times to ask?
+
+2
+2
+Print the definition of "cat":Print the definition of "cat":
+
+woof
+woof
+Wrong. The right answer is "meow", but your definition is correct for "dog".Wrong. The right answer is "meow", but your definition is correct for "dog".
+
+Print the definition of "cat":Print the definition of "cat":
+
+wapapapapow
+wapapapapow
+Wrong. The right answer is "meow".Wrong. The right answer is "meow".
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+remove
+remove
+Which card?Which card?
+
+badger
+badger
+Can't remove 'badger': there is no such card.Can't remove 'badger': there is no such card.
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+remove
+remove
+Which card?Which card?
+
+cat
+cat
+The card has been removed.The card has been removed.
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+add
+add
+The card:The card:
+
+horse
+horse
+The definition of the card:The definition of the card:
+
+neigh
+neigh
+The pair ("horse":"neigh") has been added.The pair ("horse":"neigh") has been added.
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+export
+export
+File name:File name:
+
+animal_sounds.txt
+animal_sounds.txt
+2 cards have been saved.2 cards have been saved.
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+import
+import
+File name:File name:
+
+ghost_file.txt
+ghost_file.txt
+File not found.File not found.
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+import
+import
+File name:File name:
+
+animal_sounds.txt
+animal_sounds.txt
+2 cards have been loaded.2 cards have been loaded.
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+ask
+ask
+How many times to ask?How many times to ask?
+
+1
+1
+Print the definition of "horse":Print the definition of "horse":
+
+neigh
+neigh
+Wrong. The right answer is "neigh", but your definition is correct for "horse".Wrong. The right answer is "neigh", but your definition is correct for "horse".
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+log
+log
+File name:File name:
+
+log.txt
+log.txt
+The log has been saved.The log has been saved.
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+exit
+exit
+Bye bye!Bye bye!
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+
+hardest card
+hardest card
+hardest card
+"There are no cards with errors.""There are no cards with errors.""There are no cards with errors."
+
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+
+add
+add
+add
+The card:The card:The card:
+
+
+Canada
+Canada
+Canada
+The definition of the card:The definition of the card:The definition of the card:
+
+
+Ottawa
+Ottawa
+Ottawa
+The pair ("Canada":"Ottawa") has been added.The pair ("Canada":"Ottawa") has been added.The pair ("Canada":"Ottawa") has been added.
+
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+
+add
+add
+add
+The card:The card:The card:
+
+
+Japan
+Japan
+Japan
+The definition of the card:The definition of the card:The definition of the card:
+
+
+Tokyo
+Tokyo
+Tokyo
+The pair ("Japan":"Tokyo") has been added.The pair ("Japan":"Tokyo") has been added.The pair ("Japan":"Tokyo") has been added.
+
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+
+add
+add
+add
+The card:The card:The card:
+
+
+Poland
+Poland
+Poland
+The definition of the card:The definition of the card:The definition of the card:
+
+
+Warsaw
+Warsaw
+Warsaw
+The pair ("Poland":"Warsaw") has been added.The pair ("Poland":"Warsaw") has been added.The pair ("Poland":"Warsaw") has been added.
+
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+
+ask
+ask
+ask
+How many times to ask?How many times to ask?How many times to ask?
+
+
+100
+100
+100
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Poland":Print the definition of "Poland":Print the definition of "Poland":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".Wrong. The right answer is "Warsaw".
+
+
+Print the definition of "Canada":Print the definition of "Canada":Print the definition of "Canada":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".Wrong. The right answer is "Ottawa".
+
+
+Print the definition of "Japan":Print the definition of "Japan":Print the definition of "Japan":
+
+
+Washington
+Washington
+Washington
+Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".Wrong. The right answer is "Tokyo".
+
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+
+hardest card
+hardest card
+hardest card
+The hardest card is "Poland". You have 35 errors answering it.The hardest card is "Poland". You have 35 errors answering it.The hardest card is "Poland". You have 35 errors answering it.
+
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+
+export
+export
+export
+File name:File name:File name:
+
+
+capitals.txt
+capitals.txt
+capitals.txt
+3 cards have been saved.3 cards have been saved.3 cards have been saved.
+
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+
+import
+import
+import
+File name:File name:File name:
+
+
+capitals.txt
+capitals.txt
+capitals.txt
+3 cards have been loaded.3 cards have been loaded.3 cards have been loaded.
+
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+
+hardest card
+hardest card
+hardest card
+The hardest card is "Poland". You have 35 errors answering it.The hardest card is "Poland". You have 35 errors answering it.The hardest card is "Poland". You have 35 errors answering it.
+
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+
+reset stats
+reset stats
+reset stats
+Card statistics have been reset.Card statistics have been reset.Card statistics have been reset.
+
+
+{'Canada': ('Ottawa', 0), 'Japan': ('Tokyo', 0), 'Poland': ('Warsaw', 0)}{'Canada': ('Ottawa', 0), 'Japan': ('Tokyo', 0), 'Poland': ('Warsaw', 0)}{'Canada': ('Ottawa', 0), 'Japan': ('Tokyo', 0), 'Poland': ('Warsaw', 0)}
+
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+
+hardest card
+hardest card
+hardest card
+"There are no cards with errors.""There are no cards with errors.""There are no cards with errors."
+
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+
+exit
+exit
+exit
+Bye bye!Bye bye!Bye bye!
+
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+
+
+add
+add
+add
+add
+The card:The card:The card:The card:
+
+
+
+Texas
+Texas
+Texas
+Texas
+The definition of the card:The definition of the card:The definition of the card:The definition of the card:
+
+
+
+Austin
+Austin
+Austin
+Austin
+The pair ("Texas":"Austin") has been added.The pair ("Texas":"Austin") has been added.The pair ("Texas":"Austin") has been added.The pair ("Texas":"Austin") has been added.
+
+
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+
+
+add
+add
+add
+add
+The card:The card:The card:The card:
+
+
+
+Florida
+Florida
+Florida
+Florida
+The definition of the card:The definition of the card:The definition of the card:The definition of the card:
+
+
+
+Tallahassee
+Tallahassee
+Tallahassee
+Tallahassee
+The pair ("Florida":"Tallahassee") has been added.The pair ("Florida":"Tallahassee") has been added.The pair ("Florida":"Tallahassee") has been added.The pair ("Florida":"Tallahassee") has been added.
+
+
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+
+
+add
+add
+add
+add
+The card:The card:The card:The card:
+
+
+
+California
+California
+California
+California
+The definition of the card:The definition of the card:The definition of the card:The definition of the card:
+
+
+
+Sacramento
+Sacramento
+Sacramento
+Sacramento
+The pair ("California":"Sacramento") has been added.The pair ("California":"Sacramento") has been added.The pair ("California":"Sacramento") has been added.The pair ("California":"Sacramento") has been added.
+
+
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+
+
+ask
+ask
+ask
+ask
+How many times to ask?How many times to ask?How many times to ask?How many times to ask?
+
+
+
+3
+3
+3
+3
+Print the definition of "California":Print the definition of "California":Print the definition of "California":Print the definition of "California":
+
+
+
+Austin
+Austin
+Austin
+Austin
+Wrong. The right answer is "Sacramento", but your definition is correct for "Texas".Wrong. The right answer is "Sacramento", but your definition is correct for "Texas".Wrong. The right answer is "Sacramento", but your definition is correct for "Texas".Wrong. The right answer is "Sacramento", but your definition is correct for "Texas".
+
+
+
+Print the definition of "Florida":Print the definition of "Florida":Print the definition of "Florida":Print the definition of "Florida":
+
+
+
+Austin
+Austin
+Austin
+Austin
+Wrong. The right answer is "Tallahassee", but your definition is correct for "Texas".Wrong. The right answer is "Tallahassee", but your definition is correct for "Texas".Wrong. The right answer is "Tallahassee", but your definition is correct for "Texas".Wrong. The right answer is "Tallahassee", but your definition is correct for "Texas".
+
+
+
+Print the definition of "California":Print the definition of "California":Print the definition of "California":Print the definition of "California":
+
+
+
+Austin
+Austin
+Austin
+Austin
+Wrong. The right answer is "Sacramento", but your definition is correct for "Texas".Wrong. The right answer is "Sacramento", but your definition is correct for "Texas".Wrong. The right answer is "Sacramento", but your definition is correct for "Texas".Wrong. The right answer is "Sacramento", but your definition is correct for "Texas".
+
+
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+
+
+exit
+exit
+exit
+exit
+3 cards have been saved.3 cards have been saved.3 cards have been saved.3 cards have been saved.
+
+
+
+3 cards have been loaded.3 cards have been loaded.3 cards have been loaded.3 cards have been loaded.3 cards have been loaded.
+
+
+
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+
+
+
+remove
+remove
+remove
+remove
+remove
+Which card?Which card?Which card?Which card?Which card?
+
+
+
+
+Texas
+Texas
+Texas
+Texas
+Texas
+The card has been removed.The card has been removed.The card has been removed.The card has been removed.The card has been removed.
+
+
+
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+
+
+
+remove
+remove
+remove
+remove
+remove
+Which card?Which card?Which card?Which card?Which card?
+
+
+
+
+Florida
+Florida
+Florida
+Florida
+Florida
+The card has been removed.The card has been removed.The card has been removed.The card has been removed.The card has been removed.
+
+
+
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+
+
+
+ask
+ask
+ask
+ask
+ask
+How many times to ask?How many times to ask?How many times to ask?How many times to ask?How many times to ask?
+
+
+
+
+2
+2
+2
+2
+2
+Print the definition of "California":Print the definition of "California":Print the definition of "California":Print the definition of "California":Print the definition of "California":
+
+
+
+
+Sacramento
+Sacramento
+Sacramento
+Sacramento
+Sacramento
+Wrong. The right answer is "Sacramento", but your definition is correct for "California".Wrong. The right answer is "Sacramento", but your definition is correct for "California".Wrong. The right answer is "Sacramento", but your definition is correct for "California".Wrong. The right answer is "Sacramento", but your definition is correct for "California".Wrong. The right answer is "Sacramento", but your definition is correct for "California".
+
+
+
+
+Print the definition of "California":Print the definition of "California":Print the definition of "California":Print the definition of "California":Print the definition of "California":
+
+
+
+
+Austin
+Austin
+Austin
+Austin
+Austin
+Wrong. The right answer is "Sacramento".Wrong. The right answer is "Sacramento".Wrong. The right answer is "Sacramento".Wrong. The right answer is "Sacramento".Wrong. The right answer is "Sacramento".
+
+
+
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+
+
+
+exit
+exit
+exit
+exit
+exit
+Bye bye!Bye bye!Bye bye!Bye bye!Bye bye!
+
+
+
+
+3 cards have been loaded.3 cards have been loaded.3 cards have been loaded.3 cards have been loaded.3 cards have been loaded.3 cards have been loaded.
+
+
+
+
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+
+
+
+
+ask
+ask
+ask
+ask
+ask
+ask
+How many times to ask?How many times to ask?How many times to ask?How many times to ask?How many times to ask?How many times to ask?
+
+
+
+
+
+1
+1
+1
+1
+1
+1
+Print the definition of "Florida":Print the definition of "Florida":Print the definition of "Florida":Print the definition of "Florida":Print the definition of "Florida":Print the definition of "Florida":
+
+
+
+
+
+Austin
+Austin
+Austin
+Austin
+Austin
+Austin
+Wrong. The right answer is "Tallahassee", but your definition is correct for "Texas".Wrong. The right answer is "Tallahassee", but your definition is correct for "Texas".Wrong. The right answer is "Tallahassee", but your definition is correct for "Texas".Wrong. The right answer is "Tallahassee", but your definition is correct for "Texas".Wrong. The right answer is "Tallahassee", but your definition is correct for "Texas".Wrong. The right answer is "Tallahassee", but your definition is correct for "Texas".
+
+
+
+
+
+Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+
+
+
+
+exit
+exit
+exit
+exit
+exit
+exit
+3 cards have been saved.3 cards have been saved.3 cards have been saved.3 cards have been saved.3 cards have been saved.3 cards have been saved.
+
+
+
+
+
