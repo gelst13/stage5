@@ -1,0 +1,1084 @@
+INFO - Mon May 30 16:20:02 2022
+DEBUG - not os.path.isfile("high_scores.txt")
+DEBUG - Namespace(max_durations=0, min_durations=0, places='place1/place2/place3', seed='seed')
+INFO - def start
+DEBUG - self.command = load
+DEBUG - deque(['load'])
+INFO - def load...
+INFO - def read_slots1
+DEBUG - ['hyper Titanium: 1000 Robots: 3 Last save: 2022-05-30 19:20']
+DEBUG - [ ] hyper Titanium: 1000 Robots: 3 Last save: 2022-05-30 19:20
+DEBUG - [['hyper', '1000', '3']]
+DEBUG - current_saves: [['hyper', '1000', '3']]
+DEBUG - ['hyper', '1000', '3']
+DEBUG - player's params: hyper, 1000, {'Robots': 3, 'Titanium Scan': 0, 'Enemy Scan': 0}
+DEBUG - deque(['load', 1, 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - Enemy encounter
+DEBUG - 0.054333599774117225 < 0.4427926851871231
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = 7
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '7', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '7', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - Enemy encounter
+DEBUG - 0.08435900557913556 < 0.347926379208903
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '7', 'yes', 'ex', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '7', 'yes', 'ex', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '7', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '7', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '7', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '7', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '7', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '7', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '7', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '7', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '7', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '7', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '7', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '7', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '7', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '7', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '7', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '7', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '7', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '7', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = 5
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '7', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '7', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - Enemy encounter
+DEBUG - 0.4576755366217654 < 0.5758208472604733
+INFO - def start
+DEBUG - self.command = exit
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '7', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 'exit'])
+INFO - Mon May 30 16:20:02 2022
+DEBUG - Namespace(max_durations=0, min_durations=0, places='Middle,of,nowhere/Ice,desert/Underground,city', seed='100')
+INFO - def start
+DEBUG - self.command = load
+DEBUG - deque(['load'])
+INFO - def load...
+INFO - def read_slots1
+DEBUG - ['super_commander Titanium: 10000 Robots: 5 Last save: 2022-05-30 19:20']
+DEBUG - [ ] super_commander Titanium: 10000 Robots: 5 Last save: 2022-05-30 19:20
+DEBUG - [['super_commander', '10000', '5']]
+DEBUG - current_saves: [['super_commander', '10000', '5']]
+DEBUG - ['super_commander', '10000', '5']
+DEBUG - player's params: super_commander, 10000, {'Robots': 5, 'Titanium Scan': 0, 'Enemy Scan': 0}
+DEBUG - deque(['load', 1, 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - Enemy encounter
+DEBUG - 0.14682317618996876 < 0.7898593400698999
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - Enemy encounter
+DEBUG - 0.7855526671652736 < 0.983497339549387
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = 1
+INFO - Deploying robots
+DEBUG - Enemy encounter
+DEBUG - 0.6561649308831194 < 0.9805700255087968
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '1', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '1', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - Enemy encounter
+DEBUG - 0.8624469224999257 < 0.8858695318727968
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - Enemy encounter
+DEBUG - 0.2629534009255835 < 0.7748398189652277
+INFO - def start
+DEBUG - self.command = exit
+DEBUG - deque(['load', 1, 'yes', 'ex', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'exit'])
+INFO - Mon May 30 16:20:03 2022
+DEBUG - Namespace(max_durations=0, min_durations=0, places='Old,power,plant/Abandoned,warehouse/Zombie,canteen', seed='1')
+INFO - def start
+DEBUG - self.command = load
+DEBUG - deque(['load'])
+INFO - def load...
+INFO - def read_slots1
+DEBUG - ['hyper_user Titanium: 3800 Robots: 5 Last save: 2022-05-30 19:20']
+DEBUG - [ ] hyper_user Titanium: 3800 Robots: 5 Last save: 2022-05-30 19:20
+DEBUG - [['hyper_user', '3800', '5']]
+DEBUG - current_saves: [['hyper_user', '3800', '5']]
+DEBUG - ['hyper_user', '3800', '5']
+DEBUG - player's params: hyper_user, 3800, {'Robots': 5, 'Titanium Scan': 0, 'Enemy Scan': 0}
+DEBUG - deque(['load', 1, 'yes'])
+INFO - def yes...
+DEBUG - self.command = up
+DEBUG - deque(['load', 1, 'yes', 'up'])
+INFO - def up
+DEBUG - 3
+DEBUG - {'Robots': 6, 'Titanium Scan': 0, 'Enemy Scan': 0}
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes'])
+INFO - def yes...
+DEBUG - self.command = up
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up'])
+INFO - def up
+DEBUG - 3
+DEBUG - {'Robots': 7, 'Titanium Scan': 0, 'Enemy Scan': 0}
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes'])
+INFO - def yes...
+DEBUG - self.command = up
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up'])
+INFO - def up
+DEBUG - 3
+DEBUG - {'Robots': 8, 'Titanium Scan': 0, 'Enemy Scan': 0}
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes'])
+INFO - def yes...
+DEBUG - self.command = up
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up'])
+INFO - def up
+DEBUG - 2
+DEBUG - {'Robots': 8, 'Titanium Scan': 0, 'Enemy Scan': 1}
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes'])
+INFO - def yes...
+DEBUG - self.command = up
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up'])
+INFO - def up
+DEBUG - 1
+DEBUG - {'Robots': 8, 'Titanium Scan': 1, 'Enemy Scan': 1}
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - Enemy encounter
+DEBUG - 0.07106555001613746 < 0.13474007836652324
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = 5
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - Enemy encounter
+DEBUG - 0.14137836054934816 < 0.7973742023200772
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - Enemy encounter
+DEBUG - 0.5722320007679416 < 0.8725315376252154
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - Enemy encounter
+DEBUG - 0.14422093979508144 < 0.15988271629741413
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = 5
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - Enemy encounter
+DEBUG - 0.39120629132345286 < 0.7932580491063103
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - Enemy encounter
+DEBUG - 0.3758284656467157 < 0.5431200258699193
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = 8
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '8', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '8', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '8', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '8', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - Enemy encounter
+DEBUG - 0.2608287558810244 < 0.7402760603474215
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '8', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '8', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '8', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '8', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = 5
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '8', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '8', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '8', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes'])
+INFO - def yes...
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '8', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - Deploying robots
+DEBUG - Enemy encounter
+DEBUG - 0.11123876611989159 < 0.21172668550489837
+INFO - def start
+DEBUG - self.command = exit
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 'yes', 'ex', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '8', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 's', '5', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 's', 'yes', 'ex', 's', 's', 's', 's', 's', 's', 'exit'])
+INFO - Mon May 30 16:20:04 2022
+DEBUG - Namespace(max_durations=0, min_durations=0, places='Old,power,plant/Abandoned,warehouse/Zombie,canteen', seed='1')
+INFO - def start
+DEBUG - self.command = load
+DEBUG - deque(['load'])
+INFO - def load...
+INFO - def read_slots1
+DEBUG - ['hyper_user Titanium: 3800 Robots: 5 Last save: 2022-05-30 19:20']
+DEBUG - [ ] hyper_user Titanium: 3800 Robots: 5 Last save: 2022-05-30 19:20
+DEBUG - [['hyper_user', '3800', '5']]
+DEBUG - current_saves: [['hyper_user', '3800', '5']]
+DEBUG - ['hyper_user', '3800', '5']
+DEBUG - player's params: hyper_user, 3800, {'Robots': 5, 'Titanium Scan': 0, 'Enemy Scan': 0}
+DEBUG - deque(['load', 1, 'yes'])
+INFO - def yes...
+DEBUG - self.command = up
+DEBUG - deque(['load', 1, 'yes', 'up'])
+INFO - def up
+DEBUG - 3
+DEBUG - {'Robots': 6, 'Titanium Scan': 0, 'Enemy Scan': 0}
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes'])
+INFO - def yes...
+DEBUG - self.command = up
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up'])
+INFO - def up
+DEBUG - 3
+DEBUG - {'Robots': 7, 'Titanium Scan': 0, 'Enemy Scan': 0}
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes'])
+INFO - def yes...
+DEBUG - self.command = up
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up'])
+INFO - def up
+DEBUG - 3
+DEBUG - {'Robots': 8, 'Titanium Scan': 0, 'Enemy Scan': 0}
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes'])
+INFO - def yes...
+DEBUG - self.command = up
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up'])
+INFO - def up
+DEBUG - 2
+DEBUG - {'Robots': 8, 'Titanium Scan': 0, 'Enemy Scan': 1}
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes'])
+INFO - def yes...
+DEBUG - self.command = up
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up'])
+INFO - def up
+DEBUG - 1
+DEBUG - {'Robots': 8, 'Titanium Scan': 1, 'Enemy Scan': 1}
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes'])
+INFO - def yes...
+DEBUG - self.command = save
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'save'])
+INFO - def save
+INFO - def read_slots1
+DEBUG - ['hyper_user Titanium: 3800 Robots: 5 Last save: 2022-05-30 19:20']
+DEBUG - [ ] hyper_user Titanium: 3800 Robots: 5 Last save: 2022-05-30 19:20
+DEBUG - [['hyper_user', '3800', '5']]
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'save', '1', 'yes'])
+INFO - def yes...
+DEBUG - self.command = m
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'save', '1', 'yes', 'm'])
+DEBUG - self.command = main
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'save', '1', 'yes', 'm', 'main'])
+INFO - def start
+DEBUG - self.command = load
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'save', '1', 'yes', 'm', 'main', 'load'])
+INFO - def load...
+INFO - def read_slots1
+DEBUG - ['hyper_user Titanium:50 Robots: 8 Last save: 2022-05-30 19:20  Upgrades: 1, 1']
+DEBUG - [ ] hyper_user Titanium:50 Robots: 8 Last save: 2022-05-30 19:20  Upgrades: 1, 1
+DEBUG - [['hyper_user', 'Titanium:50', 'Robots:', '8', 'Last', 'save:', '2022-05-30', '19:20', '', 'Upgrades:', '1,', '1']]
+DEBUG - current_saves: [['hyper_user', 'Titanium:50', 'Robots:', '8', 'Last', 'save:', '2022-05-30', '19:20', '', 'Upgrades:', '1,', '1']]
+DEBUG - ['hyper_user', 'Titanium:50', 'Robots:', '8', 'Last', 'save:', '2022-05-30', '19:20', '', 'Upgrades:', '1,', '1']
+INFO - def start
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'save', '1', 'yes', 'm', 'main', 'load', 1, 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'save', '1', 'yes', 'm', 'main', 'load', 1, 'ex', 's', 's', 's', 's', 's', 's', 's', 's'])
+INFO - def yes...
+DEBUG - self.command = m
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'save', '1', 'yes', 'm', 'main', 'load', 1, 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'm'])
+DEBUG - self.command = exit
+DEBUG - deque(['load', 1, 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '3', 'yes', 'up', '2', 'yes', 'up', '1', 'yes', 'save', '1', 'yes', 'm', 'main', 'load', 1, 'ex', 's', 's', 's', 's', 's', 's', 's', 's', 'm', 'exit'])
+INFO - Mon May 30 16:20:04 2022
+DEBUG - Namespace(max_durations=0, min_durations=0, places='place1/place2/place3', seed='hyper')
+INFO - def start
+DEBUG - self.command = load
+DEBUG - deque(['load'])
+INFO - def load...
+INFO - def read_slots1
+DEBUG - ['hyper_user Titanium: 50 Robots: 6 Last save: 2022-05-30 19:20']
+DEBUG - [ ] hyper_user Titanium: 50 Robots: 6 Last save: 2022-05-30 19:20
+DEBUG - [['hyper_user', '50', '6']]
+DEBUG - current_saves: [['hyper_user', '50', '6']]
+DEBUG - ['hyper_user', '50', '6']
+DEBUG - player's params: hyper_user, 50, {'Robots': 6, 'Titanium Scan': 0, 'Enemy Scan': 0}
+DEBUG - deque(['load', 1, 'yes'])
+INFO - def yes...
+DEBUG - self.command = up
+DEBUG - deque(['load', 1, 'yes', 'up'])
+INFO - def up
+DEBUG - 1
+DEBUG - {'Robots': 6, 'Titanium Scan': 0, 'Enemy Scan': 0}
+DEBUG - deque(['load', 1, 'yes', 'up', '1', 'yes'])
+INFO - def yes...
+DEBUG - self.command = 2
+DEBUG - deque(['load', 1, 'yes', 'up', '1', 'yes', '2'])
+DEBUG - self.command = 3
+DEBUG - deque(['load', 1, 'yes', 'up', '1', 'yes', '2', '3'])
+DEBUG - self.command = back
+DEBUG - deque(['load', 1, 'yes', 'up', '1', 'yes', '2', '3', 'back'])
+DEBUG - self.command = ex
+DEBUG - deque(['load', 1, 'yes', 'up', '1', 'yes', '2', '3', 'back', 'ex'])
+INFO - def ex...
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+INFO - def search
+DEBUG - self.command = s
+DEBUG - deque(['load', 1, 'yes', 'up', '1', 'yes', '2', '3', 'back', 'ex', 's', 's', 's'])
+INFO - def yes...
+DEBUG - self.command = m
+DEBUG - deque(['load', 1, 'yes', 'up', '1', 'yes', '2', '3', 'back', 'ex', 's', 's', 's', 'm'])
+DEBUG - self.command = exit
+DEBUG - deque(['load', 1, 'yes', 'up', '1', 'yes', '2', '3', 'back', 'ex', 's', 's', 's', 'm', 'exit'])
+INFO - Mon May 30 16:20:04 2022
+DEBUG - not os.path.isfile("save_file.txt")
+DEBUG - Namespace(max_durations=0, min_durations=0, places='place1/place2/place3', seed='hyper')
+INFO - def start
+DEBUG - self.command = high
+DEBUG - deque(['high'])
+INFO - def high...
+DEBUG - deque(['high', 'back'])
+DEBUG - self.command = exit
+DEBUG - deque(['high', 'back', 'exit'])
